@@ -8,5 +8,11 @@ public class TestCases
 		System.out.println("Start from Userid");
 		
 	}
+	public static void main(String args[])
+	{
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://www.mercury-tours.com/");
+		System.out.println("Webpage open Successfully");
+	}
 
 }
